@@ -17,6 +17,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+        "checkJs": false,
     "plugins": [
       {
         "name": "next"
@@ -28,7 +29,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/carousel-horizontal/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
