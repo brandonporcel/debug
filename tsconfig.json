@@ -30,11 +30,12 @@
 //     "**/*.ts",
 //     "**/*.tsx"
 // , "src/app/carousel-horizontal/page.jsx"  ],
-  "include": [
-    "next-env.d.ts",
-    ".next/types/**/*.ts",
-    ],
+  "include": [],
   "exclude": [
-    "node_modules"
+    "node_modules",
+        "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
