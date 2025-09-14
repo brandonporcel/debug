@@ -17,23 +17,25 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-        "checkJs": false,
+    "checkJs": false,
     "plugins": [
       {
         "name": "next"
       }
     ]
   },
-//   "include": [
-//     "next-env.d.ts",
-//     ".next/types/**/*.ts",
-//     "**/*.ts",
-//     "**/*.tsx"
-// , "src/app/carousel-horizontal/page.jsx"  ],
-  "include": [],
+  //   "include": [
+  //     "next-env.d.ts",
+  //     ".next/types/**/*.ts",
+  //     "**/*.ts",
+  //     "**/*.tsx"
+  // , "src/app/carousel-horizontal/page.jsx"  ],
+  "include": [
+    ".next/types/**/*.ts"
+  ],
   "exclude": [
     "node_modules",
-        "next-env.d.ts",
+    "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
